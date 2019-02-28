@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     Controller controller;
     Vector3 velocity;
-    public float moveSpeed = 6;
+    public float moveSpeed;
 
     public float jumpHeight = 4;
     public float timeToApex = .4f;
@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
     public float jumpVel;
     float gravity;
     float velocitySmoothVal;
+
+    
 
     // Start is called before the first frame update
     void Start()
